@@ -1,0 +1,37 @@
+[advice]
+  statusHints = false
+[alias]
+  cob = checkout -b
+  smf = submodule foreach
+[color]
+  ui = true
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[core]
+  autocrlf = false
+  editor = subl -w
+  excludesfile = ~/.yadr/git/gitignore
+[commit]
+	template = ~/.gitmessage.txt
+[diff]
+  # Git diff will use (i)ndex, (w)ork tree, (c)ommit and (o)bject
+  # instead of a/b/c/d as prefixes for patches
+  mnemonicprefix = true
+[filter "lfs"]
+  clean = git-lfs clean %f
+  smudge = git-lfs smudge %f
+  required = true
+[format]
+  pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
+[include]
+  path = ./gitalias/gitalias.txt
+[user]
+  name = Felipe Uliana
+	email = v.uliana@gmail.com
