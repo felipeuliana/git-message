@@ -1,0 +1,34 @@
+# Assunto - [tipo]/[tarefa]: [mensagem]
+# - Escreva no imperativo
+# - Use no máximo 72 caracteres
+# - Não termine com um ponto (.)
+
+# Se aplicado, esse commit...
+
+# Corpo - Texto livre
+# - Escreva a vontade
+# - Use o maior número de detalhes possível
+
+# Por que essa alteração é necessária?
+# Como essa alteração resolve a questão?
+
+# Links - [ação] o item [tarefa]: [link]
+# - Disponibilize o endereço da tarefa, ou outros recursos
+
+# Exemplo:
+# feature/TKT-666: Implementa o componente do resultado de buscas
+#
+# Desenvolve o código do componente necessário para
+# items da página de busca do produto nas seguintes tecnologias:
+# - HTML
+# - CSS
+# - JavaScript
+# Disponibiliza o componente para utilização em qualquer aplicação.
+#
+# Implementa o item TKT-666: https://jira.cvc.com.br/browse/TKT-666
+
+# Definições:
+# [tipo]: release, feature e hotfix
+# [tarefa]: Task cadastrada no Jira
+# [ação]: Publica, lança, implementa, desenvolve, ajusta, corrige...
+# [link]: https://jira.cvc.com.br/browse/[tarefa]
