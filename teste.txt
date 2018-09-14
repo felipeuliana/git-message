@@ -1,1 +1,2 @@
 Testando templates de mensagems para o git.
+template alterado, novo teste.
